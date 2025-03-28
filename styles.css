@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -90,4 +94,17 @@ form button {
 
 form button:hover {
     background-color: #555;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;  /* Zentriert das Logo horizontal */
+    align-items: center;      /* Zentriert das Logo vertikal */
+    height: 100%;             /* Damit der Container die volle Höhe der Seite einnimmt */
+}
+
+.logo {
+    max-width: 400px;         /* Maximale Breite des Logos auf 400px beschränken */
+    width: 100%;              /* Logo kann bis zu 100% der max-width ausnutzen */
 }

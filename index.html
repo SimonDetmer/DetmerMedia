@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Portfolio-Seite</title>
+    <title>Detmer.media</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
-    <nav>
+    <nav style="display: none;">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -17,12 +17,15 @@
     </nav>
 </header>
 
-<section id="home" class="section">
-    <h1>Willkommen auf meiner Portfolio-Seite</h1>
-    <p>Ich bin ein kreativer Webentwickler und Designer.</p>
+<section id="home" class="section" >
+    <h1>Hallo</h1>
+    <p>Hier geht's bald weiter</p>
+    <div class="logo-container">
+        <img src="path/to/your/logo.png" alt="Logo" class="logo">
+    </div>
 </section>
 
-<section id="portfolio" class="section">
+<section id="portfolio" class="section" style="display: none;">
     <h2>Portfolio</h2>
     <div class="portfolio-grid">
         <div class="portfolio-item">
@@ -40,7 +43,7 @@
     </div>
 </section>
 
-<section id="contact" class="section">
+<section id="contact" class="section" style="display: none;">
     <h2>Kontakt</h2>
     <form action="#" method="post">
         <label for="name">Name:</label>
@@ -54,7 +57,7 @@
 </section>
 
 <footer>
-    <p>&copy; 2025 Mein Name</p>
+    <p style="display: none;">&copy; 2025 Mein Name</p>
 </footer>
 
 <script src="script.js"></script>
