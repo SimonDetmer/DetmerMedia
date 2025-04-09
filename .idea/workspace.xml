@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9324043-908a-4f01-8101-66be35b94707" name="Changes" comment="CNAME-File added">
+    <list default="true" id="e9324043-908a-4f01-8101-66be35b94707" name="Changes" comment="contact added, content changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -55,6 +55,7 @@
       <workItem from="1743159163601" duration="3616000" />
       <workItem from="1744209507991" duration="584000" />
       <workItem from="1744210149039" duration="393000" />
+      <workItem from="1744221895074" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="Initital Changes">
       <created>1743159417629</created>
@@ -131,6 +132,7 @@
     <MESSAGE value="Initital Changes - 6" />
     <MESSAGE value="Initital Changes - 7" />
     <MESSAGE value="CNAME-File added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CNAME-File added" />
+    <MESSAGE value="contact added, content changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact added, content changes" />
   </component>
 </project>
