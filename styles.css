@@ -21,6 +21,11 @@ header {
     margin-bottom: 20px;
 }
 
+h1.tagline {
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
 /* Logo Container */
 .logo-container {
     width: 100%;
@@ -65,13 +70,25 @@ nav ul li a:hover {
 /* Kopfzeilen */
 h1, h2, h3 {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
+}
+
+h1, h2 {
+    margin-top: 30px
 }
 
 /* Über mich */
 #home h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 /* Leistungen */
@@ -117,15 +134,15 @@ h1, h2, h3 {
 }
 
 #experience .experience-block {
-    max-width: 600px;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #experience .experience-block ul {
-    list-style-type: disc;
+    list-style-type: none;
     padding-left: 20px;
 }
 
@@ -178,5 +195,14 @@ footer {
     /* Falls der Header noch Platz benötigt */
     header {
         padding: 20px 10px;
+    }
+
+    h1.tagline {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    #services {
+        grid-template-columns: 1fr; /* Nur eine Spalte */
     }
 }
