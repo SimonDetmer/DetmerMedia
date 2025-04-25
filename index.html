@@ -6,70 +6,93 @@
     <title>detmer.media</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="img/DetmerMediaFavicon.png">
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
 </head>
 <body>
-<header style="display: none;">
-    <nav>
+<!-- Header mit Logo und Titel -->
+<header class="main-header">
+    <div class="logo-container">
+        <img src="img/DetmerMediaLogo2025.png" alt="Logo" class="logo">
+        <h1>UI/UX | Design | Consulting</h1>
+    </div>
+    <!-- Navigation -->
+    <nav class="main-nav">
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Über mich</a></li>
+            <li><a href="#services">Leistungen</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#experience">Erfahrung</a></li>
             <li><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
 </header>
 
-<section id="home" class="section" >
-    <div class="logo-container">
-        <img src="img/DetmerMediaLogo2025.png" alt="Logo" class="logo">
-    </div>
-    <div class="logo-container">
-        <h1>UI/UX | Design | Consulting</h1>
-    </div>
-    <div class="logo-container">
-        <p>Hier entsteht gerade eine Website. Für den Anfang bitte:</p>
-    </div>
-    <div class="logo-container">
-        <p><a href="https://www.linkedin.com/in/simon-detmer-32b868242/">Kontakt über LinkedIn</a></p>
-    </div>
-
-
+<!-- Über mich -->
+<section id="about">
+    <h2>Über mich</h2>
+    <p>Ich bin freiberuflicher Mediendesigner mit Fokus auf nutzerzentrierte Gestaltung, digitale Lösungen und klare Kommunikation. Mit Erfahrung in Design, Entwicklung und Beratung biete ich maßgeschneiderte Lösungen für digitale Produkte.</p>
 </section>
 
-<section id="portfolio" class="section" style="display: none;">
+<!-- Leistungen -->
+<section id="services">
+    <h2>Leistungen</h2>
+    <div class="service-item">
+        <div class="icon">🎨</div>
+        <div class="text">
+            <h3>UX/UI Design</h3>
+            <p>Benutzerfreundliche, ästhetische und funktionale Interfaces für Web und Mobile.</p>
+        </div>
+    </div>
+    <div class="service-item">
+        <div class="icon">🔍</div>
+        <div class="text">
+            <h3>Consulting</h3>
+            <p>Beratung in Designprozessen, Tools und strategischer Umsetzung von Medienprojekten.</p>
+        </div>
+    </div>
+    <div class="service-item">
+        <div class="icon">🛠️</div>
+        <div class="text">
+            <h3>Prototyping</h3>
+            <p>Schnelle und interaktive Prototypen zur Veranschaulichung und Testung von Ideen.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio">
     <h2>Portfolio</h2>
-    <div class="portfolio-grid">
-        <div class="portfolio-item">
-            <img src="https://via.placeholder.com/300" alt="Projekt 1">
-            <p>Projekt 1</p>
-        </div>
-        <div class="portfolio-item">
-            <img src="https://via.placeholder.com/300" alt="Projekt 2">
-            <p>Projekt 2</p>
-        </div>
-        <div class="portfolio-item">
-            <img src="https://via.placeholder.com/300" alt="Projekt 3">
-            <p>Projekt 3</p>
-        </div>
-    </div>
+    <iframe src="//lightwidget.com/widgets/09be6e4b6e3d584295776538dc75de3a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 </section>
 
-<section id="contact" class="section" style="display: none;">
+<!-- Erfahrung -->
+<section id="experience">
+    <h2>Erfahrung</h2>
+    <h3>Design & Entwicklung</h3>
+    <ul>
+        <li>6+ Jahre Erfahrung als UX-/UI-Designer</li>
+        <li>Frontend-Entwicklung in HTML/CSS, JavaScript, Angular</li>
+        <li>Gestaltung von Markenauftritten</li>
+    </ul>
+    <h3>Ausbildung & Abschlüsse</h3>
+    <ul>
+        <li>Ausgebildeter Mediengestalter (Digital und Print)</li>
+        <li>Bachelor of Science Medieninformatik (voraussichtlich 2026)</li>
+    </ul>
+</section>
+
+<!-- Kontakt -->
+<section id="contact">
     <h2>Kontakt</h2>
-    <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">E-Mail:</label>
-        <input type="email" id="email" name="email" required>
-
-        <button type="submit">Absenden</button>
-    </form>
+    <p>Schreib mir gerne eine E-Mail: <a href="mailto:simon@detmer.media">simon@detmer.media</a></p>
+    <p>Oder besuch mich auf:
+        <a href="https://www.linkedin.com/in/simon-detmer-32b868242/" target="_blank">LinkedIn</a> |
+        <a href="https://www.instagram.com/deinhandle/" target="_blank">Instagram</a>
+    </p>
 </section>
 
-<footer style="display: none;">
-    <p>&copy; 2025 Mein Name</p>
+<footer>
+    <p>&copy; 2025 Simon Detmer</p>
 </footer>
-
-<script src="script.js"></script>
 </body>
 </html>
