@@ -119,11 +119,52 @@
                 <a href="https://www.instagram.com/detmer.media/" target="_blank">Instagram</a>
             </p>
         </section>
+
+        <!-- Impressum Modal -->
+        <div id="impressumModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('impressumModal')">&times;</span>
+                <h2>Impressum</h2>
+                <p><strong>Simon Detmer</strong><br>
+                    Theodor-Hetzer-Straße 23<br>
+                    88662 Überlingen<br>
+                    E-Mail: <a href="mailto:simon@detmer.media">simon@detmer.media</a></p>
+                <p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br>
+                    Simon Detmer</p>
+            </div>
+        </div>
+
+        <!-- Datenschutz Modal -->
+        <div id="datenschutzModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('datenschutzModal')">&times;</span>
+                <h2>Datenschutzerklärung</h2>
+                <p><strong>1. Allgemeines</strong><br>
+                    Diese Website dient der beruflichen Selbstdarstellung. Personenbezogene Daten werden nur im technisch notwendigen Umfang verarbeitet.</p>
+
+                <p><strong>2. Hosting</strong><br>
+                    Die Website wird bei GitHub Pages gehostet. Beim Aufruf der Seite werden technische Daten erfasst. Anbieter: GitHub Inc., San Francisco, USA. Mehr: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank">GitHub Datenschutz</a></p>
+
+                <p><strong>3. Google Fonts</strong><br>
+                    Es wird Open Sans über Google Fonts genutzt. Anbieter: Google Ireland Ltd. Mehr: <a href="https://policies.google.com/privacy" target="_blank">Google Datenschutz</a></p>
+
+                <p><strong>4. LightWidget (Instagram)</strong><br>
+                    Das Instagram-Widget stammt von LightWidget (Polen). Es überträgt ggf. personenbezogene Daten an deren Server. Mehr: <a href="https://lightwidget.com/privacy" target="_blank">LightWidget Datenschutz</a></p>
+
+                <p><strong>5. Rechte</strong><br>
+                    Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer Daten. Kontakt: <a href="mailto:simon@detmer.media">simon@detmer.media</a></p>
+            </div>
+        </div>
+
     </main>
 
     <footer>
-        <p>&copy; 2025 Simon Detmer</p>
+        <p>&copy; 2025 Simon Detmer |
+            <a href="#" id="openImpressum" data-modal-id="impressumModal">Impressum</a>
+            <a href="#" id="openDatenschutz" data-modal-id="datenschutzModal">Datenschutz</a>
+        </p>
     </footer>
+
 </div>
 <script src="script.js"></script>
 </body>

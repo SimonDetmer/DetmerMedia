@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9324043-908a-4f01-8101-66be35b94707" name="Changes" comment="Content and Style Adjustments">
+    <list default="true" id="e9324043-908a-4f01-8101-66be35b94707" name="Changes" comment="Final Version 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,8 @@
       <workItem from="1744209507991" duration="584000" />
       <workItem from="1744210149039" duration="393000" />
       <workItem from="1744221895074" duration="3147000" />
-      <workItem from="1745393015194" duration="7519000" />
+      <workItem from="1745393015194" duration="8853000" />
+      <workItem from="1747125046615" duration="3132000" />
     </task>
     <task id="LOCAL-00001" summary="Initital Changes">
       <created>1743159417629</created>
@@ -136,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1745592210468</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Final Version 1.0">
+      <created>1745609883506</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745609883506</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +176,7 @@
     <MESSAGE value="title changes" />
     <MESSAGE value="implementation of the portfolio" />
     <MESSAGE value="Content and Style Adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content and Style Adjustments" />
+    <MESSAGE value="Final Version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Version 1.0" />
   </component>
 </project>

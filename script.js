@@ -1,10 +1,35 @@
-// Beispielhafte Funktion für zukünftige JavaScript-Features
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("Die Seite ist bereit!");
+document.addEventListener('DOMContentLoaded', function () {
+    // Alle Buttons mit data-modal-id holen
+    const openButtons = document.querySelectorAll('[data-modal-id]');
+    const closeButtons = document.querySelectorAll('.modal .close');
 
-    // Zum Beispiel könnte hier eine Interaktivität hinzugefügt werden
-    const submitButton = document.querySelector("button[type='submit']");
-    submitButton.addEventListener("click", function(event) {
-        alert("Formular wurde abgesendet!");
+    openButtons.forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const modalId = btn.getAttribute('data-modal-id');
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'block';
+            }
+        });
+    });
+
+    closeButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            const modal = btn.closest('.modal');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+        });
+    });
+
+    // Schließen beim Klick außerhalb des Inhalts
+    window.addEventListener('click', function (e) {
+        const modals = document.querySelectorAll('.modal');
+        modals.forEach(function (modal) {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
     });
 });
