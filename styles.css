@@ -8,10 +8,17 @@
 /* Body und Hintergrund */
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff; /* bleibt immer hell */
+    color: #000000;
     text-align: center;
 }
+
+/* Entferne die Hintergrundänderung im Dark Mode */
+.dark-mode body {
+    /* kein background-color setzen → Hintergrund bleibt wie oben */
+    color: #eee; /* Schriftfarbe kannst du trotzdem ändern */
+}
+
 
 /* Header */
 header {
