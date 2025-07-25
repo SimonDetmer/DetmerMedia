@@ -32,16 +32,4 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-
-    function updateLogoBasedOnTheme() {
-        const logo = document.getElementById('site-logo');
-        const darkMode = document.documentElement.classList.contains('dark');
-
-        if (logo) {
-            logo.src = darkMode ? 'img/DetmerMediaLogo2025-dark.png' : 'img/DetmerMediaLogo2025.png';
-        }
-    }
-
-// Logo beim Laden und bei Theme-Änderung anpassen
-    document.addEventListener('DOMContentLoaded', updateLogoBasedOnTheme);
 });
