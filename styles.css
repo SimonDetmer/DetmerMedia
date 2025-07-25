@@ -45,23 +45,6 @@ h1.tagline {
     height: auto;
 }
 
-/* Standard: helles Logo sichtbar */
-.logo-dark {
-    display: none;
-}
-.logo-light {
-    display: block;
-}
-
-/* Dark Mode: dunkles Logo anzeigen */
-@media (prefers-color-scheme: dark) {
-    .logo-light {
-        display: none;
-    }
-    .logo-dark {
-        display: block;
-    }
-}
 
 /* Navigation */
 nav ul {
