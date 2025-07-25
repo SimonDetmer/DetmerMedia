@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9324043-908a-4f01-8101-66be35b94707" name="Changes" comment="- &quot;Workshops&quot; added&#10;- style adjustments">
+    <list default="true" id="e9324043-908a-4f01-8101-66be35b94707" name="Changes" comment="- background-color adjusted for dark mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/DetmerMediaLogo2025.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/DetmerMediaLogo2025.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <workItem from="1745393015194" duration="8853000" />
       <workItem from="1747125046615" duration="3462000" />
       <workItem from="1747471649543" duration="4613000" />
-      <workItem from="1753433080777" duration="1302000" />
+      <workItem from="1753433080777" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="Initital Changes">
       <created>1743159417629</created>
@@ -159,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747477444862</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="- background-color adjusted for dark mode">
+      <created>1753435062760</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753435062760</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +201,7 @@
     <MESSAGE value="Final Version 1.0" />
     <MESSAGE value="Impressum &amp; Datenschutz added" />
     <MESSAGE value="- &quot;Workshops&quot; added&#10;- style adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="- &quot;Workshops&quot; added&#10;- style adjustments" />
+    <MESSAGE value="- background-color adjusted for dark mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="- background-color adjusted for dark mode" />
   </component>
 </project>
